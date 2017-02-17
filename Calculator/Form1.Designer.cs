@@ -47,12 +47,16 @@
             this.bdot = new System.Windows.Forms.Button();
             this.bplus = new System.Windows.Forms.Button();
             this.bequals = new System.Windows.Forms.Button();
+            this.distraction = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox1.Enabled = false;
             this.textBox1.Location = new System.Drawing.Point(13, 13);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(284, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
@@ -64,7 +68,8 @@
             this.b7.Location = new System.Drawing.Point(13, 39);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(53, 44);
-            this.b7.TabIndex = 1;
+            this.b7.TabIndex = 0;
+            this.b7.TabStop = false;
             this.b7.Text = "7";
             this.b7.UseVisualStyleBackColor = false;
             this.b7.Click += new System.EventHandler(this.b7_Click);
@@ -131,10 +136,12 @@
             // 
             // b5
             // 
+            this.b5.CausesValidation = false;
             this.b5.Location = new System.Drawing.Point(72, 89);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(53, 44);
             this.b5.TabIndex = 8;
+            this.b5.TabStop = false;
             this.b5.Text = "5";
             this.b5.UseVisualStyleBackColor = false;
             this.b5.Click += new System.EventHandler(this.b5_Click);
@@ -234,16 +241,28 @@
             this.bequals.Location = new System.Drawing.Point(249, 139);
             this.bequals.Name = "bequals";
             this.bequals.Size = new System.Drawing.Size(53, 94);
-            this.bequals.TabIndex = 18;
+            this.bequals.TabIndex = 0;
             this.bequals.Text = "=";
             this.bequals.UseVisualStyleBackColor = false;
             this.bequals.Click += new System.EventHandler(this.bequals_Click);
+            // 
+            // distraction
+            // 
+            this.distraction.Location = new System.Drawing.Point(122, 200);
+            this.distraction.Name = "distraction";
+            this.distraction.Size = new System.Drawing.Size(75, 23);
+            this.distraction.TabIndex = 18;
+            this.distraction.TabStop = false;
+            this.distraction.Text = "u no c me";
+            this.distraction.UseVisualStyleBackColor = true;
+            this.distraction.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(309, 247);
+            this.Controls.Add(this.distraction);
             this.Controls.Add(this.bequals);
             this.Controls.Add(this.bplus);
             this.Controls.Add(this.bdot);
@@ -266,6 +285,10 @@
             this.Name = "Form1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.MouseClick);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.setFocusAway);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.MouseUpUp);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,6 +315,7 @@
         private System.Windows.Forms.Button bdot;
         private System.Windows.Forms.Button bplus;
         private System.Windows.Forms.Button bequals;
+        private System.Windows.Forms.Button distraction;
     }
 }
 
