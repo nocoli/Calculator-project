@@ -7,3 +7,12 @@ C:\Users\Nicholas\Documents\GitHub\Projects\Calculator\Calculator\obj\Debug\Calc
 C:\Users\Nicholas\Documents\GitHub\Projects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
 C:\Users\Nicholas\Documents\GitHub\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\Nicholas\Documents\GitHub\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.exe
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\bin\Debug\Calculator.exe
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Nicholas\Documents\GitHub\Projects\Calculator-project\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache

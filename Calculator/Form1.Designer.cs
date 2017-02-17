@@ -60,12 +60,14 @@
             // 
             // b7
             // 
+            this.b7.BackColor = System.Drawing.SystemColors.Control;
             this.b7.Location = new System.Drawing.Point(13, 39);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(53, 44);
             this.b7.TabIndex = 1;
             this.b7.Text = "7";
-            this.b7.UseVisualStyleBackColor = true;
+            this.b7.UseVisualStyleBackColor = false;
+            this.b7.Click += new System.EventHandler(this.b7_Click);
             // 
             // b8
             // 
@@ -74,7 +76,8 @@
             this.b8.Size = new System.Drawing.Size(53, 44);
             this.b8.TabIndex = 2;
             this.b8.Text = "8";
-            this.b8.UseVisualStyleBackColor = true;
+            this.b8.UseVisualStyleBackColor = false;
+            this.b8.Click += new System.EventHandler(this.b8_Click);
             // 
             // b9
             // 
@@ -83,7 +86,8 @@
             this.b9.Size = new System.Drawing.Size(53, 44);
             this.b9.TabIndex = 3;
             this.b9.Text = "9";
-            this.b9.UseVisualStyleBackColor = true;
+            this.b9.UseVisualStyleBackColor = false;
+            this.b9.Click += new System.EventHandler(this.b9_Click);
             // 
             // bdivide
             // 
@@ -92,7 +96,8 @@
             this.bdivide.Size = new System.Drawing.Size(53, 44);
             this.bdivide.TabIndex = 4;
             this.bdivide.Text = "/";
-            this.bdivide.UseVisualStyleBackColor = true;
+            this.bdivide.UseVisualStyleBackColor = false;
+            this.bdivide.Click += new System.EventHandler(this.bdivide_Click);
             // 
             // bcleareverything
             // 
@@ -101,7 +106,8 @@
             this.bcleareverything.Size = new System.Drawing.Size(53, 44);
             this.bcleareverything.TabIndex = 5;
             this.bcleareverything.Text = "CE";
-            this.bcleareverything.UseVisualStyleBackColor = true;
+            this.bcleareverything.UseVisualStyleBackColor = false;
+            this.bcleareverything.Click += new System.EventHandler(this.bcleareverything_Click);
             // 
             // b4
             // 
@@ -110,7 +116,8 @@
             this.b4.Size = new System.Drawing.Size(53, 44);
             this.b4.TabIndex = 6;
             this.b4.Text = "4";
-            this.b4.UseVisualStyleBackColor = true;
+            this.b4.UseVisualStyleBackColor = false;
+            this.b4.Click += new System.EventHandler(this.b4_Click);
             // 
             // b1
             // 
@@ -119,7 +126,7 @@
             this.b1.Size = new System.Drawing.Size(53, 44);
             this.b1.TabIndex = 7;
             this.b1.Text = "1";
-            this.b1.UseVisualStyleBackColor = true;
+            this.b1.UseVisualStyleBackColor = false;
             this.b1.Click += new System.EventHandler(this.button7_Click);
             // 
             // b5
@@ -129,7 +136,8 @@
             this.b5.Size = new System.Drawing.Size(53, 44);
             this.b5.TabIndex = 8;
             this.b5.Text = "5";
-            this.b5.UseVisualStyleBackColor = true;
+            this.b5.UseVisualStyleBackColor = false;
+            this.b5.Click += new System.EventHandler(this.b5_Click);
             // 
             // b2
             // 
@@ -138,7 +146,8 @@
             this.b2.Size = new System.Drawing.Size(53, 44);
             this.b2.TabIndex = 9;
             this.b2.Text = "2";
-            this.b2.UseVisualStyleBackColor = true;
+            this.b2.UseVisualStyleBackColor = false;
+            this.b2.Click += new System.EventHandler(this.b2_Click);
             // 
             // b0
             // 
@@ -147,7 +156,8 @@
             this.b0.Size = new System.Drawing.Size(112, 44);
             this.b0.TabIndex = 10;
             this.b0.Text = "0";
-            this.b0.UseVisualStyleBackColor = true;
+            this.b0.UseVisualStyleBackColor = false;
+            this.b0.Click += new System.EventHandler(this.b0_Click);
             // 
             // b6
             // 
@@ -156,7 +166,8 @@
             this.b6.Size = new System.Drawing.Size(53, 44);
             this.b6.TabIndex = 11;
             this.b6.Text = "6";
-            this.b6.UseVisualStyleBackColor = true;
+            this.b6.UseVisualStyleBackColor = false;
+            this.b6.Click += new System.EventHandler(this.b6_Click);
             // 
             // btimes
             // 
@@ -165,7 +176,8 @@
             this.btimes.Size = new System.Drawing.Size(53, 44);
             this.btimes.TabIndex = 12;
             this.btimes.Text = "x";
-            this.btimes.UseVisualStyleBackColor = true;
+            this.btimes.UseVisualStyleBackColor = false;
+            this.btimes.Click += new System.EventHandler(this.btimes_Click);
             // 
             // bclear
             // 
@@ -174,7 +186,8 @@
             this.bclear.Size = new System.Drawing.Size(53, 44);
             this.bclear.TabIndex = 13;
             this.bclear.Text = "C";
-            this.bclear.UseVisualStyleBackColor = true;
+            this.bclear.UseVisualStyleBackColor = false;
+            this.bclear.Click += new System.EventHandler(this.bclear_Click);
             // 
             // b3
             // 
@@ -183,7 +196,8 @@
             this.b3.Size = new System.Drawing.Size(53, 44);
             this.b3.TabIndex = 14;
             this.b3.Text = "3";
-            this.b3.UseVisualStyleBackColor = true;
+            this.b3.UseVisualStyleBackColor = false;
+            this.b3.Click += new System.EventHandler(this.b3_Click);
             // 
             // bminus
             // 
@@ -192,7 +206,8 @@
             this.bminus.Size = new System.Drawing.Size(53, 44);
             this.bminus.TabIndex = 15;
             this.bminus.Text = "-";
-            this.bminus.UseVisualStyleBackColor = true;
+            this.bminus.UseVisualStyleBackColor = false;
+            this.bminus.Click += new System.EventHandler(this.bminus_Click);
             // 
             // bdot
             // 
@@ -201,7 +216,8 @@
             this.bdot.Size = new System.Drawing.Size(53, 44);
             this.bdot.TabIndex = 16;
             this.bdot.Text = ".";
-            this.bdot.UseVisualStyleBackColor = true;
+            this.bdot.UseVisualStyleBackColor = false;
+            this.bdot.Click += new System.EventHandler(this.bdot_Click);
             // 
             // bplus
             // 
@@ -210,7 +226,8 @@
             this.bplus.Size = new System.Drawing.Size(53, 44);
             this.bplus.TabIndex = 17;
             this.bplus.Text = "+";
-            this.bplus.UseVisualStyleBackColor = true;
+            this.bplus.UseVisualStyleBackColor = false;
+            this.bplus.Click += new System.EventHandler(this.bplus_Click);
             // 
             // bequals
             // 
@@ -219,7 +236,8 @@
             this.bequals.Size = new System.Drawing.Size(53, 94);
             this.bequals.TabIndex = 18;
             this.bequals.Text = "=";
-            this.bequals.UseVisualStyleBackColor = true;
+            this.bequals.UseVisualStyleBackColor = false;
+            this.bequals.Click += new System.EventHandler(this.bequals_Click);
             // 
             // Form1
             // 
